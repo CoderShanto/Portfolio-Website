@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahmud Hasan Shanto - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body data-theme="dark">
+    
+    <canvas id="bg-canvas"></canvas>
+
+    <nav>
+        <div class="logo">Mahmud Hasan Shanto</div>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Project</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" onclick="switchTheme()">🌙</button>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>
+                <span class="gradient-text">Software Engineer</span><br>
+                & Research Collaborator<br>
+                
+            </h1>
+
+            <div class="cta-group">
+                <a href="#work" class="btn btn-main">See Projects</a>
+                <a href="#contact" class="btn btn-ghost">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="section-top reveal">
+            <div class="section-label">Profile</div>
+            <h2 class="section-heading">About Me</h2>
+        </div>
+        <div class="profile-container reveal">
+            <div class="profile-image-container">
+                <img src="assets/ss.jpg" alt="Mahmud Hasan Shanto" class="profile-image">
+                <div class="profile-badge">Available for Work</div>
+            </div>
+            <div class="profile-content">
+                <h3 class="profile-title">Mahmud Hasan Shanto</h3>
+                <div class="profile-subtitle">Software Engineer & AI Researcher</div>
+                <p class="profile-description">
+                    I’m a software engineer focused on building scalable, production-ready applications
+  across modern web stacks. I’ve developed full-stack systems including an LMS and
+  e-commerce platforms using Laravel and React, as well as a MERN-based doctor
+  appointment system with role-based access and real-time workflows.
+                </p>
+                <p class="profile-description">
+                    Alongside engineering, I actively engage in research at the intersection of
+  artificial intelligence, healthcare, and blockchain-based data security. My work
+  explores LLM applications in healthcare systems, secure data sharing, and
+  trustworthy system design. I’m currently expanding into applied AI research to
+  bridge robust software engineering with intelligent, real-world solutions.
+                </p>
+                <div class="profile-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">2+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">Research Papers</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Projects Built</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">8+</div>
+                        <div class="stat-label">Technologies</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work">
+        <div class="section-top reveal">
+            <div class="section-label">Portfolio</div>
+            <h2 class="section-heading">Latest Project</h2>
+        </div>
+        <div class="grid">
+            
+<!-- Here is start for cards projects -->
+
+          <div class="card reveal">
+  <div class="card-visual">
+    <img src="assets/s.jpg"
+         alt="DocScheduler Project"
+         class="card-img">
+  </div>
+
+  <div class="card-body">
+    <h3>DocScheduler – Appointment Management System</h3>
+
+    <!-- add class -->
+    <p class="card-desc">
+      Smart doctor appointment system with scheduling automation,
+      role-based dashboards and scalable backend architecture.
+    </p>
+
+    <div class="tags">
+      <span class="tag">MongoDB</span>
+      <span class="tag">Express.js</span>
+      <span class="tag">React.js</span>
+      <span class="tag">Node.js</span>
+    </div>
+  </div>
+</div>
+
+ <!-- 2nd project -->
+
+            <div class="card reveal">
+  <div class="card-visual">
+    <img src="assets/e.jpg"
+         alt="DocScheduler Project"
+         class="card-img">
+  </div>
+
+  <div class="card-body">
+    <h3>LearnHub – E-Learning Platform</h3>
+    <p>Interactive e-learning platform with personalized learning paths, real-time collaboration tools, and a scalable backend architecture.</p>
+    <div class="tags">
+      <span class="tag">MySQL</span>
+      <span class="tag">Laravel</span>
+      <span class="tag">React</span>
+      
+    </div>
+  </div>
+</div>
+           
+            <!-- 3rd project -->
+
+            <div class="card reveal">
+  <div class="card-visual">
+    <img src="assets/c.jpg"
+         alt="DocScheduler Project"
+         class="card-img">
+  </div>
+
+  <div class="card-body">
+    <h3>ShopSphere – E-Commerce Platform</h3>
+<p>
+  Full-featured e-commerce platform with product management, secure payments,
+  real-time order tracking, and a scalable backend architecture.
+</p>
+
+    <div class="tags">
+      <span class="tag">MySQL</span>
+      <span class="tag">Laravel</span>
+      <span class="tag">React</span>
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+        </div>
+    </section>
+
+    <section id="research">
+        <div class="section-top reveal">
+            <div class="section-label">Publications</div>
+            <h2 class="section-heading">Research</h2>
+        </div>
+        <div class="research-grid">
+            <div class="paper reveal">
+                <h3>KG-Mamba: Knowledge Graph Driven Mamba Model For Medical Question Answering</h3>
+                
+                <p>KG-Mamba introduces a knowledge graph–driven fine-tuning approach for the Mamba architecture to improve medical question answering by enhancing contextual reasoning and reducing hallucinations.</p>
+            </div>
+            <div class="paper reveal">
+                <h3>Security and Privacy in Cloud-Based E-HealthSystem Using Advanced Encryption Standard(AES)</h3>
+                
+                <p>Proposed a secure cloud-based e-health framework using AES and ECC to ensure efficient encryption, fine-grained access control, and privacy-preserving management of patient health records.</p>
+            </div>
+            <div class="paper reveal">
+                <h3>Blockchain Based Medical Report Encryption</h3>
+                
+                <p>Blockchain-Based Medical Report Encryption, United International University — Research project on securing electronic health records using blockchain, homomorphic encryption (Paillier), and smart contracts.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-top reveal">
+            <div class="section-label">Capabilities</div>
+            <h2 class="section-heading">Tech Stack</h2>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card reveal">
+                <span class="skill-emoji">⚡</span>
+                <h3>Languages</h3>
+                <ul>
+                    <li>Java</li>
+                    <li>JavaScript</li>
+                    <li>c / C++</li>
+                    <li>php</li>
+                    <li>Go / Scala</li>
+                </ul>
+            </div>
+            <div class="skill-card reveal">
+                <span class="skill-emoji">🚀</span>
+                <h3>Frameworks</h3>
+                <ul>
+                    <li>Laravel</li>
+                    <li>React / Next.js</li>
+                    <li>TensorFlow / PyTorch</li>
+                    <li>Spring / Express</li>
+                    
+                </ul>
+            </div>
+            <div class="skill-card reveal">
+                <span class="skill-emoji">☁️</span>
+                <h3>Cloud & DevOps</h3>
+                <ul>
+                    <li>AWS </li>
+                    <li>Docker / Kubernetes</li>
+                    <li>CI/CD Pipelines</li>
+                    <li>Cloudinary</li>
+                    <li>Monitoring & Logging</li>
+                </ul>
+            </div>
+            <div class="skill-card reveal">
+                <span class="skill-emoji">🔬</span>
+                <h3>Research</h3>
+                <ul>
+                    <li>LLM</li>
+                    <li>Artificial Intelligent</li>
+                    <li>NLP</li>
+                    <li>Distributed Systems</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-box reveal">
+            <div class="section-label">Connect</div>
+            <h2 class="gradient-text">Let's Build Together</h2>
+            <p>Open to collaborations, exciting projects, and innovative ideas. Let's create something extraordinary.</p>
+            <a href="mailto:mahmudshanto@example.com" class="btn btn-main">Get In Touch</a>
+            <div class="socials">
+                <a href="https://github.com/CoderShanto" class="social-btn">💻</a>
+                <a href="https://www.linkedin.com/in/md-mahmud-hasan-shanto-614b37224/" class="social-btn">💼</a>
+                <a href="https://x.com/hasan_shan18705" class="social-btn">🐦</a>
+                <a href="https://leetcode.com/u/sshanto12344321/" class="social-btn">📊
+</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script>
+        // Theme Switch
+        function switchTheme() {
+            const theme = document.body.getAttribute('data-theme');
+            const newTheme = theme === 'dark' ? 'light' : 'dark';
+            document.body.setAttribute('data-theme', newTheme);
+            document.querySelector('.theme-toggle').textContent = newTheme === 'dark' ? '🌙' : '☀️';
+        }
+
+        // Smooth Scroll
+        document.querySelectorAll('a[href^="#"]').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                target.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+
+        // Three.js Background
+        const canvas = document.getElementById('bg-canvas');
+        const scene = new THREE.Scene();
+        const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        const renderer = new THREE.WebGLRenderer({ canvas, alpha: true });
+        
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        camera.position.z = 50;
+
+        // Create geometric shapes
+        const shapes = [];
+        
+        // Icosahedron
+        const icoGeo = new THREE.IcosahedronGeometry(15, 1);
+        const icoMat = new THREE.MeshBasicMaterial({
+            color: 0x00fff2,
+            wireframe: true,
+            transparent: true,
+            opacity: 0.15
+        });
+        const ico = new THREE.Mesh(icoGeo, icoMat);
+        scene.add(ico);
+        shapes.push(ico);
+
+        // Torus Knot
+        const torusGeo = new THREE.TorusKnotGeometry(8, 2, 100, 16);
+        const torusMat = new THREE.MeshBasicMaterial({
+            color: 0x7000ff,
+            wireframe: true,
+            transparent: true,
+            opacity: 0.1
+        });
+        const torus = new THREE.Mesh(torusGeo, torusMat);
+        scene.add(torus);
+        shapes.push(torus);
+
+        // Stars
+        const starsGeo = new THREE.BufferGeometry();
+        const starCount = 3000;
+        const positions = new Float32Array(starCount * 3);
+        
+        for(let i = 0; i < starCount * 3; i++) {
+            positions[i] = (Math.random() - 0.5) * 200;
+        }
+        
+        starsGeo.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+        const starsMat = new THREE.PointsMaterial({
+            color: 0xffffff,
+            size: 0.15,
+            transparent: true,
+            opacity: 0.8
+        });
+        const stars = new THREE.Points(starsGeo, starsMat);
+        scene.add(stars);
+
+        // Animation
+        let time = 0;
+        function animate() {
+            requestAnimationFrame(animate);
+            time += 0.01;
+            
+            // Rotate shapes automatically
+            ico.rotation.x += 0.002;
+            ico.rotation.y += 0.003;
+            
+            torus.rotation.x += 0.003;
+            torus.rotation.y -= 0.002;
+            torus.rotation.z += 0.001;
+            
+            // Gentle float
+            ico.position.y = Math.sin(time * 0.5) * 3;
+            torus.position.y = Math.cos(time * 0.5) * 2;
+            
+            // Stars drift
+            stars.rotation.y += 0.0002;
+            stars.rotation.x += 0.0001;
+            
+            renderer.render(scene, camera);
+        }
+        animate();
+
+        // Resize handler
+        window.addEventListener('resize', () => {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        });
+
+        // Scroll reveals
+        const reveals = document.querySelectorAll('.reveal');
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if(entry.isIntersecting) {
+                    entry.target.classList.add('show');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        reveals.forEach(el => revealObserver.observe(el));
+    </script>
+</body>
+</html>
+
