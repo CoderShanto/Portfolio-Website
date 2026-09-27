@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahmud Hasan Shanto - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-theme="dark">
+
+    <canvas id="bg-canvas"></canvas>
+
+    <nav>
+        <div class="logo">Mahmud Hasan Shanto</div>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Project</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" onclick="switchTheme()">🌙</button>
+    </nav>
+
+    <!-- ─── HERO ─── -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+
+            <!-- LEFT: text -->
+            <div class="hero-left">
+                <p class="hero-badge">
+                    <span class="badge-dot"></span> Available for Work
+                </p>
+
+                <h1 class="hero-title">
+                    <span class="gradient-text">Software Engineer</span><br>
+                    Building scalable full-stack applications with strong backend systems
+                </h1>
+                
+                <p class="hero-description">
+                    I develop production-ready web applications using Laravel, React, Node.js, and Spring Boot,
+                    with a strong focus on REST APIs, authentication, database design, and maintainable architecture.
+                </p>
+                
+                <div class="hero-tags">
+                    <span>Laravel & PHP</span>
+                    <span>React & JavaScript</span>
+                    <span>Node.js & Express</span>
+                    <span>Spring Boot</span>
+                    <span>REST APIs & Authentication</span>
+                    <span>MySQL • MongoDB • PostgreSQL</span>
+                </div>
+                
+                <div class="hero-buttons">
+                    <a href="#work" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    <a href="./mahmud-hasan-shanto-cv.pdf" class="btn btn-outline" download="Mahmud_Hasan_Shanto_CV.pdf">
+                        Download Resume
+                    </a>
+                </div>
+            </div>
+
+            <!-- RIGHT: profile image -->
+            <div class="hero-right">
+                <div class="hero-img-wrapper">
+                    <div class="hero-img-ring hero-img-ring--outer"></div>
+                    <div class="hero-img-ring hero-img-ring--inner"></div>
+                    <img src="assets/ss.jpg" alt="Mahmud Hasan Shanto" class="hero-profile-img">
+                    <div class="hero-img-glow"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ─── ABOUT ─── -->
+<section id="about" class="about-section">
+    <div class="about-wrapper">
+
+        <!-- LEFT SIDE -->
+        <div class="about-left reveal">
+            <p class="section-heading">About Me</p>
+
+            <h2 class="gradient-text">
+                Building practical software with strong<br>
+                backend engineering and clean architecture
+            </h2>
+
+            <p class="about-intro">
+                I am Mahmud Hasan Shanto, a Software Engineer focused on building scalable
+                full-stack web applications. I enjoy solving real-world problems through
+                backend systems, structured development, and maintainable code.
+            </p>
+
+            <p class="about-intro">
+                My experience includes working with Laravel, React, Node.js, Express.js,
+                and Spring Boot, along with REST API development and modern database systems
+                like MySQL, MongoDB, and PostgreSQL. I focus on building reliable,
+                production-ready applications.
+            </p>
+
+            <!-- HIGHLIGHTS -->
+            <div class="about-highlights">
+                <div class="highlight-item">
+                    <span class="highlight-title">Core Stack</span>
+                    <span class="highlight-text">
+                        Laravel, React, Node.js, Spring Boot, REST APIs
+                    </span>
+                </div>
+
+                <div class="highlight-item">
+                    <span class="highlight-title">Databases</span>
+                    <span class="highlight-text">
+                        MySQL, MongoDB, PostgreSQL
+                    </span>
+                </div>
+
+                <div class="highlight-item">
+                    <span class="highlight-title">Engineering Focus</span>
+                    <span class="highlight-text">
+                        Backend systems, scalable applications, clean architecture, and real-world product development
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="about-right reveal">
+
+            <div class="about-card">
+                <h3>What I Build</h3>
+                <p>
+                    I build full-stack applications including learning platforms,
+                    e-commerce systems, doctor appointment systems, and asset
+                    management tools with secure authentication, role-based access,
+                    and production-ready backend logic.
+                </p>
+            </div>
+
+            <div class="about-card">
+                <h3>How I Work</h3>
+                <p>
+                    I follow structured development practices focusing on RESTful APIs,
+                    authentication systems, database design, and performance. I aim to
+                    write clean, maintainable, and scalable code for real-world use.
+                </p>
+            </div>
+
+            <div class="about-card">
+                <h3>What Strengthens Me</h3>
+                <p>
+                    Strong computer science fundamentals, hands-on full-stack project
+                    experience, 100+ solved algorithm problems, and continuous learning
+                    in backend engineering, deployment, and modern web technologies.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+    <!-- ─── PROJECTS ─── -->
+    <section id="work">
+        <div class="section-top reveal">
+            <div class="section-label">Portfolio</div>
+            <h2 class="section-heading">Latest Projects</h2>
+        </div>
+        <div class="grid">
+
+            <div class="card reveal">
+                <div class="card-visual">
+                    <img src="assets/s.jpg" alt="DocScheduler Project" class="card-img">
+                </div>
+                <div class="card-body">
+                    <h3>DocScheduler – Appointment Management System</h3>
+                    <p class="card-desc">Smart doctor appointment system with scheduling automation, role-based
+                        dashboards and scalable backend architecture.</p>
+                    <div class="tags">
+                        <span class="tag">MongoDB</span>
+                        <span class="tag">Express.js</span>
+                        <span class="tag">React.js</span>
+                        <span class="tag">Node.js</span>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://docscheduler-appointment-management-68ha.onrender.com/" target="_blank"
+                            class="card-btn card-btn--primary">Live</a>
+                        <a href="https://github.com/CoderShanto/DocScheduler-Appointment-Management-System"
+                            target="_blank" class="card-btn card-btn--ghost">Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card reveal">
+                <div class="card-visual">
+                    <img src="assets/e.jpg" alt="LearnHub Project" class="card-img">
+                </div>
+                <div class="card-body">
+                    <h3>LearnHub – E-Learning Platform</h3>
+                    <p>Interactive e-learning platform with personalized learning paths, real-time collaboration tools,
+                        and a scalable backend architecture.</p>
+                    <div class="tags">
+                        <span class="tag">MySQL</span>
+                        <span class="tag">Laravel</span>
+                        <span class="tag">React</span>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://edu-verse-inky.vercel.app/" target="_blank"
+                            class="card-btn card-btn--primary">Live</a>
+                        <a href="https://github.com/CoderShanto/EduVerse/tree/main" target="_blank"
+                            class="card-btn card-btn--ghost">Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card reveal">
+                <div class="card-visual">
+                    <img src="assets/assetflow.png" alt="AssetFlow Management System" class="card-img">
+                </div>
+                <div class="card-body">
+                    <h3>AssetFlow – Asset Management System</h3>
+                    <p>Full-stack asset management system with role-based access, secure JWT authentication, and
+                        real-time dashboard analytics.</p>
+                    <div class="tags">
+                        <span class="tag">Spring Boot</span>
+                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">React</span>
+                        <span class="tag">JWT</span>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://assetflow-management-system.vercel.app/" target="_blank"
+                            class="card-btn card-btn--primary">Live</a>
+                        <a href="https://github.com/CoderShanto/assetflow-management-system" target="_blank"
+                            class="card-btn card-btn--ghost">Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card reveal">
+                <div class="card-visual">
+                    <img src="assets/c.jpg" alt="ShopSphere Project" class="card-img">
+                </div>
+                <div class="card-body">
+                    <h3>ShopSphere – E-Commerce Platform</h3>
+                    <p>Full-featured e-commerce platform with product management, secure payments, real-time order
+                        tracking, and a scalable backend architecture.</p>
+                    <div class="tags">
+                        <span class="tag">MySQL</span>
+                        <span class="tag">Laravel</span>
+                        <span class="tag">React</span>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://laravel-react-ecommerce-brown.vercel.app/" target="_blank"
+                            class="card-btn card-btn--primary">Live</a>
+                        <a href="https://github.com/CoderShanto/laravel-react-ecommerce" target="_blank"
+                            class="card-btn card-btn--ghost">Code</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ─── RESEARCH ─── -->
+    <section id="research">
+        <div class="section-top reveal">
+            <div class="section-label">Publications</div>
+            <h2 class="section-heading">Research</h2>
+        </div>
+        <div class="research-grid">
+            <div class="paper reveal">
+                <h3>KG-Mamba: Knowledge Graph Driven Mamba Model For Medical Question Answering</h3>
+                <p>KG-Mamba introduces a knowledge graph–driven fine-tuning approach for the Mamba architecture to
+                    improve medical question answering by enhancing contextual reasoning and reducing hallucinations.
+                </p>
+            </div>
+            <div class="paper reveal">
+                <h3>Security and Privacy in Cloud-Based E-Health System Using Advanced Encryption Standard (AES)</h3>
+                <p>Proposed a secure cloud-based e-health framework using AES and ECC to ensure efficient encryption,
+                    fine-grained access control, and privacy-preserving management of patient health records.</p>
+            </div>
+            <div class="paper reveal">
+                <h3>Blockchain Based Medical Report Encryption</h3>
+                <p>Research project on securing electronic health records using blockchain, homomorphic encryption
+                    (Paillier), and smart contracts at United International University.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── SKILLS ─── -->
+    <section id="skills">
+        <div class="section-top reveal">
+            <div class="section-label">Capabilities</div>
+            <h2 class="section-heading">Tech Stack</h2>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card reveal">
+                <span class="skill-emoji">⚡</span>
+                <h3>Languages</h3>
+                <ul>
+                    <li>Java</li>
+                    <li>JavaScript</li>
+                    <li>C / C++</li>
+                    <li>PHP</li>
+                    <li>Go / Scala</li>
+                </ul>
+            </div>
+            <div class="skill-card reveal">
+                <span class="skill-emoji">🚀</span>
+                <h3>Frameworks</h3>
+                <ul>
+                    <li>Laravel</li>
+                    <li>React / Next.js</li>
+                    <li>TensorFlow / PyTorch</li>
+                    <li>Spring / Express</li>
+                </ul>
+            </div>
+            <div class="skill-card reveal">
+                <span class="skill-emoji">☁️</span>
+                <h3>Cloud & DevOps</h3>
+                <ul>
+                    <li>AWS</li>
+                    <li>Docker / Kubernetes</li>
+                    <li>CI/CD Pipelines</li>
+                    <li>Cloudinary</li>
+                    <li>Monitoring & Logging</li>
+                </ul>
+            </div>
+            <div class="skill-card reveal">
+                <span class="skill-emoji">🔬</span>
+                <h3>Research</h3>
+                <ul>
+                    <li>LLM</li>
+                    <li>Artificial Intelligence</li>
+                    <li>NLP</li>
+                    <li>Distributed Systems</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── CONTACT ─── -->
+    <section id="contact">
+        <div class="contact-box reveal">
+            <div class="section-label">Connect</div>
+            <h2 class="gradient-text">Let's Build Together</h2>
+            <p>Open to collaborations, exciting projects, and innovative ideas. Let's create something extraordinary.
+            </p>
+            <a href="mailto:mahmudshanto@example.com" class="btn btn-main">Get In Touch</a>
+            <div class="socials">
+                <a href="https://github.com/CoderShanto" class="social-btn" title="GitHub">💻</a>
+                <a href="https://www.linkedin.com/in/md-mahmud-hasan-shanto-614b37224/" class="social-btn"
+                    title="LinkedIn">💼</a>
+                <a href="https://x.com/hasan_shan18705" class="social-btn" title="X / Twitter">🐦</a>
+                <a href="https://leetcode.com/u/sshanto12344321/" class="social-btn" title="LeetCode">📊</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script>
+        /* ── Theme ── */
+        function switchTheme() {
+            const theme = document.body.getAttribute('data-theme');
+            const next = theme === 'dark' ? 'light' : 'dark';
+            document.body.setAttribute('data-theme', next);
+            document.querySelector('.theme-toggle').textContent = next === 'dark' ? '🌙' : '☀️';
+        }
+
+        /* ── Smooth Scroll ── */
+        document.querySelectorAll('a[href^="#"]').forEach(link => {
+            link.addEventListener('click', e => {
+                e.preventDefault();
+                const t = document.querySelector(link.getAttribute('href'));
+                if (t) t.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+
+        /* ── Three.js Background ── */
+        const canvas = document.getElementById('bg-canvas');
+        const scene = new THREE.Scene();
+        const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        const renderer = new THREE.WebGLRenderer({ canvas, alpha: true });
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        camera.position.z = 50;
+
+        const icoGeo = new THREE.IcosahedronGeometry(15, 1);
+        const icoMat = new THREE.MeshBasicMaterial({ color: 0x00fff2, wireframe: true, transparent: true, opacity: 0.12 });
+        const ico = new THREE.Mesh(icoGeo, icoMat);
+        scene.add(ico);
+
+        const torusGeo = new THREE.TorusKnotGeometry(8, 2, 100, 16);
+        const torusMat = new THREE.MeshBasicMaterial({ color: 0x7000ff, wireframe: true, transparent: true, opacity: 0.09 });
+        const torus = new THREE.Mesh(torusGeo, torusMat);
+        scene.add(torus);
+
+        const starsGeo = new THREE.BufferGeometry();
+        const starCount = 3000;
+        const positions = new Float32Array(starCount * 3);
+        for (let i = 0; i < starCount * 3; i++) positions[i] = (Math.random() - 0.5) * 200;
+        starsGeo.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+        const starsMat = new THREE.PointsMaterial({ color: 0xffffff, size: 0.15, transparent: true, opacity: 0.8 });
+        const stars = new THREE.Points(starsGeo, starsMat);
+        scene.add(stars);
+
+        let time = 0;
+        function animate() {
+            requestAnimationFrame(animate);
+            time += 0.01;
+            ico.rotation.x += 0.002; ico.rotation.y += 0.003;
+            torus.rotation.x += 0.003; torus.rotation.y -= 0.002; torus.rotation.z += 0.001;
+            ico.position.y = Math.sin(time * 0.5) * 3;
+            torus.position.y = Math.cos(time * 0.5) * 2;
+            stars.rotation.y += 0.0002; stars.rotation.x += 0.0001;
+            renderer.render(scene, camera);
+        }
+        animate();
+
+        window.addEventListener('resize', () => {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        });
+
+        /* ── Scroll Reveal ── */
+        const revealObserver = new IntersectionObserver(entries => {
+            entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('show'); });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+    </script>
+</body>
+
+</html>
